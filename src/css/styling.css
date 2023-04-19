@@ -246,9 +246,39 @@ body {
   height: auto;
   }
 
+  .video-container{
+    max-width: 1400px;
+    margin: 100px 145px 0px 145px;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 1fr;
+  }
+
   .video-responsive{
   width: 100%;
   height: auto;
+  }
+
+  @media (max-width: 1250px){
+    .video-responsive{
+      width: 800px;
+      height: 450px;
+      margin: 20px;
+      padding: 10px;
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media (max-width: 1000px){
+    .video-responsive{
+      width: 400px;
+      height: 225px;
+      margin: 0px;
+      padding: 30px;
+      display: grid;
+      grid-template-columns: 1fr;
+    }
   }
 
 /*#endregion Visuals and Hyperlinks*/

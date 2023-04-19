@@ -1,16 +1,15 @@
 //production nav
 // const navData = [
-//     { title: "Home", link: "https://katedebruyn.github.io/Website-Sem-2/index.html"},
-//     { title: "Blog", link: "https://katedebruyn.github.io/Website-Sem-2/blogs/blog.html"},
-//     { title: "Data Visualisation", link: "https://katedebruyn.github.io/Website-Sem-2/data/datavisualisation.html"},
-//     { title: "Data Art", link: "https://katedebruyn.github.io/Website-Sem-2/data/dataart.html"},
-//     { title: "Design", link: "https://katedebruyn.github.io/Website-Sem-2/design/styleguide.html"},
+//     { title: "Home", link: "https://katedebruyn.github.io/Internet-Art-Site/index.html"},
+//     { title: "Theory", link: "https://katedebruyn.github.io/Internet-Art-Site/theory/theory.html"},
+//     { title: "Internet Art", link: "https://katedebruyn.github.io/Internet-Art-Site/art/internetart.html"},
+//     { title: "Design", link: "https://katedebruyn.github.io/Internet-Art-Site/design/styleguide.html"},
 // ]
 
 //dev nav
 const navData = [
     { title: "Home", link: "../../index.html"},
-    { title: "Blog", link: "../blogs/blog.html"},
+    { title: "Theory", link: "../theory/theory.html"},
     { title: "Internet Art", link: "../art/internetart.html"},
     { title: "Design", link: "../design/styleguide.html"},
 ]
