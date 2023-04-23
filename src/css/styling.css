@@ -13,10 +13,26 @@ body {
       line-height: 80px;
       margin: 30px 30px 30px;
       line-height: 80px;
-    }
+  }
+
+.paragraph{
+      color: rgb(253, 249, 223);
+      margin: 10px 200px;
+      padding: 20px;
+      font-size: 21px;
+  }
+    
+@media (max-width: 1000px){
+    .paragraph{
+        color: rgb(253, 249, 223);
+        margin: 10px 10px;
+        padding: 20px;
+        font-size: 21px;
+      }
+  }
    
 /*#region Navigation*/
-    nav {
+nav {
       background-color: rgba(0, 0, 0, 0.9);
       position: fixed;
       top: 0;
@@ -27,23 +43,23 @@ body {
       
     }
     
-    nav ul {
+nav ul {
       float: right;
       margin-right: 30px;
     }
     
-    nav ul li {
+nav ul li {
       display: inline-block;
       margin: 15px 15px 30px;
     }
     
-    nav ul li a {
+nav ul li a {
       margin-right: 30px;
       color: rgb(203, 229, 142);
       text-decoration: none;
     }
     
-    .menu-bars {
+.menu-bars {
       font-size: 15px;
       color: rgb(203, 229, 142);
       float: right;
@@ -52,11 +68,11 @@ body {
       display: none;
     }
     
-    #check {
+#check {
       display: none;
     }
     
-    @media (max-width: 1000px) {
+@media (max-width: 1000px) {
       .menu-bars {
         display: block;
       }
@@ -87,13 +103,13 @@ body {
       }
     }
     
-    #nav-button:hover{
+#nav-button:hover{
       color: rgb(255, 252, 235);
       text-decoration: underline;
       text-underline-offset: 20%;
     }
     
-    #nav-button-index{
+#nav-button-index{
       color: black;
       background: rgb(253, 249, 223);
       width: 100px;
@@ -104,7 +120,7 @@ body {
       cursor: pointer;
     }
     
-    #nav-button-blog{
+#nav-button-blog{
       color: black;
       background: rgb(253, 249, 223);
       width: 100px;
@@ -115,7 +131,7 @@ body {
       cursor: pointer;
     }
     
-    #nav-button-data{
+#nav-button-data{
       color: black;
       background: rgb(253, 249, 223);
       width: 100px;
@@ -126,7 +142,7 @@ body {
       cursor: pointer;
     }
     
-    #nav-button-styleg{
+#nav-button-styleg{
       color: black;
       background: rgb(253, 249, 223);
       width: 100px;
@@ -137,45 +153,31 @@ body {
       cursor: pointer;
     }
   
-    /*#endregion Navigation*/
-  
-/*#region Footer*/
-
-    footer {
-      background: rgba(0, 0, 0, 0.7);
-      backdrop-filter: blur(10px);
-      height: 80px;
-      width: auto;
-      margin-top: 100px;
-      padding: 20px;
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    }
-    /*#endregion Footer*/
+/*#endregion Navigation*/
 
 /*#region Headings*/
-
-    .big-heading{
+.big-heading{
       color: rgb(255, 252, 235);
       font-size: 80px;
       line-height: 80px;
       margin: 130px 80px 0px; 
     }
 
-    .main-heading{
+.main-heading{
       color: rgb(255, 252, 235);
       font-size: 30px;
       line-height: 80px;
       margin: 100px 80px 0px; 
     }
 
-    .sub-heading{
+.sub-heading{
       color: rgb(255, 252, 235);
       font-size: 30px;
       line-height: 80px;
       margin: 0px 0px; 
     }
 
-    .footer-text{
+.footer-text{
       color: rgb(255, 252, 235);
       font-size: 20px;
       text-align: center;
@@ -186,7 +188,7 @@ body {
 /*#endregion Headings*/
 
 /*#region Footer*/
-  footer {
+footer {
     background: rgba(0, 0, 0, 0.7);
     backdrop-filter: blur(10px);
     height: 80px 0px 0px 0px;
@@ -198,7 +200,7 @@ body {
 /*#endregion Footer*/
 
 /*#region To Top Button*/
-  #totop-button{
+#totop-button{
     background: rgb(203, 229, 142);
     color: rgb(1, 48, 38);
     width: 100px;
@@ -213,7 +215,7 @@ body {
     font-weight: bold;
   }
   
-  #totop-button:hover{
+#totop-button:hover{
     background-color: rgb(161, 206, 63);
     color: rgb(1, 48, 38);
     text-underline-offset: 20%;
@@ -222,62 +224,50 @@ body {
 /*#endregion To Top Button*/
 
 /*#region Visuals and Hyperlinks*/
-  .hyperlink{
+.hyperlink{
   color: rgb(203, 229, 142);
   text-decoration: none;
   }
 
-  .figure-responsive{
+.figure-responsive{
     width: auto;
     height: auto;
     margin: 0px;
     padding: 0px;
   }
 
-  .img-center {
+.img-center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
   }
 
-  .img-responsive{
+.img-responsive{
   width: 100%;
   height: auto;
   }
 
-  .video-container{
+.video-container{
     max-width: 1400px;
-    margin: 100px 145px 0px 145px;
+    margin: 20px auto;
     padding: 20px;
     display: grid;
     grid-template-rows: 1fr;
   }
 
-  .video-responsive{
-  width: 100%;
-  height: auto;
+.video-responsive{
+    width: 100%;
+    height: auto;
   }
 
-  @media (max-width: 1250px){
-    .video-responsive{
-      width: 800px;
-      height: 450px;
+@media (max-width: 1000px){
+    .video-container{
+      max-width: auto;
       margin: 20px;
-      padding: 10px;
+      padding: 20px;
       display: grid;
-      grid-template-columns: 1fr;
-    }
-  }
-  
-  @media (max-width: 1000px){
-    .video-responsive{
-      width: 400px;
-      height: 225px;
-      margin: 0px;
-      padding: 30px;
-      display: grid;
-      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
     }
   }
 
@@ -285,11 +275,11 @@ body {
 
 /*#region Index*/
     .index-container{
-      max-width: 960px;
+      max-width: 1400px;
       margin: 0px auto;
       padding: 10px;
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
       column-gap: 10px;
     }
 
@@ -385,46 +375,10 @@ body {
   }
 
 }
-
-/*INDIVIDUAL BLOG PAGES AND THEIR ELEMENTS*/
-
-.blog-paragraph{
-  color: rgb(32, 29, 33);
-  margin: 10px 200px;
-  padding: 20px;
-  font-size: 21px;
-}
-
-.blog-paragraph-new{
-  color: rgbrgb(32, 29, 33);
-  margin: 10px 200px;
-  padding: 20px;
-  font-size: 21px;
-  text-decoration: underline;
-}
-
-@media (max-width: 1000px){
-  .blog-paragraph{
-    color: rgb(32, 29, 33);
-    margin: 10px 10px;
-    padding: 20px;
-    font-size: 21px;
-  }
-  
-  .blog-paragraph-new{
-    color: rgb(32, 29, 33);
-    margin: 10px 10px;
-    padding: 20px;
-    font-size: 21px;
-    text-decoration: underline;
-  }
-}
-
 /*#endregion Blogs*/
 
 /*#region Styleguide*/
-
-  .guide-container {
+.guide-container {
     max-width: 1400px;
     margin: 50px auto;
     display: grid;
@@ -433,7 +387,7 @@ body {
     row-gap: 10px;
   }
   
-  .guide-item {
+.guide-item {
     background: rgb(1, 48, 38);
     color: rgb(253, 249, 223);
     border: rgb(1, 48, 38) 1px solid;
@@ -441,7 +395,7 @@ body {
     padding: 20px;
   }
   
-  @media (max-width: 1450px){
+@media (max-width: 1450px){
     .guide-container {
       max-width: auto;
       margin: 80px auto;
@@ -454,7 +408,7 @@ body {
     }
   }
   
-  @media (max-width: 1000px){
+@media (max-width: 1000px){
     .guide-container {
       max-width: auto;
       margin: 80px auto;
@@ -467,4 +421,4 @@ body {
     }
   }
 
-  /*#endregion Styleguide*/
+/*#endregion Styleguide*/
