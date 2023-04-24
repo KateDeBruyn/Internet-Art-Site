@@ -193,6 +193,13 @@ nav ul li a {
   text-align: center;
 }
 
+#paragraph-heading{
+  color: rgb(255, 252, 235);
+  font-size: 30px;
+  line-height: 80px;
+  margin: 10px 200px 0px; 
+}  
+
 .footer-text{
       color: rgb(255, 252, 235);
       font-size: 20px;
