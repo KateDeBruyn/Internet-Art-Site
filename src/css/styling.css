@@ -164,11 +164,18 @@ nav ul li a {
       text-align: center;
     }
 
+.page-heading{
+      color: rgb(255, 252, 235);
+      font-size: 30px;
+      line-height: 80px;
+      margin: 100px 200px 0px; 
+    }    
+
 .main-heading{
       color: rgb(255, 252, 235);
       font-size: 30px;
       line-height: 80px;
-      margin: 100px 80px 0px; 
+      margin: 5px 80px 0px; 
     }
 
 .sub-heading{
