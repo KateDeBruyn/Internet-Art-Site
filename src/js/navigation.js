@@ -1,18 +1,18 @@
 //production nav
-// const navData = [
-//     { title: "Home", link: "https://katedebruyn.github.io/Internet-Art-Site/index.html"},
-//     { title: "Theory", link: "https://katedebruyn.github.io/Internet-Art-Site/theory/theory.html"},
-//     { title: "Internet Art", link: "https://katedebruyn.github.io/Internet-Art-Site/art/internetart.html"},
-//     { title: "Design", link: "https://katedebruyn.github.io/Internet-Art-Site/design/styleguide.html"},
-// ]
+const navData = [
+    { title: "Home", link: "https://katedebruyn.github.io/Internet-Art-Site/index.html"},
+    { title: "Theory", link: "https://katedebruyn.github.io/Internet-Art-Site/theory/theory.html"},
+    { title: "Internet Art", link: "https://katedebruyn.github.io/Internet-Art-Site/art/internetart.html"},
+    { title: "Design", link: "https://katedebruyn.github.io/Internet-Art-Site/design/styleguide.html"},
+]
 
 //dev nav
-const navData = [
-    { title: "Home", link: "../../index.html"},
-    { title: "Theory", link: "../theory/theory.html"},
-    { title: "Internet Art", link: "../art/internetart.html"},
-    { title: "Design", link: "../design/styleguide.html"},
-]
+// const navData = [
+//     { title: "Home", link: "../../index.html"},
+//     { title: "Theory", link: "../theory/theory.html"},
+//     { title: "Internet Art", link: "../art/internetart.html"},
+//     { title: "Design", link: "../design/styleguide.html"},
+// ]
 
 const navElement = document.getElementById("nav-Id");
 
